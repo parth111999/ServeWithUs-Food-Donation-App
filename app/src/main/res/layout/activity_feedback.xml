@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeedbackActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/background_btn_2" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textStyle="bold"
+        android:layout_marginTop="-40dp"
+        android:height="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal" />
+    <!---->
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="380dp"
+        android:layout_height="320dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="75dp">
+
+        <Button
+            android:id="@+id/btnmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_below="@+id/imageButton"
+            android:layout_marginLeft="60dp"
+            android:background="@color/transparent"
+            android:text="message"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnemail"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton2"
+            android:layout_alignStart="@+id/imageButton2"
+            android:layout_alignLeft="@+id/imageButton2"
+            android:layout_marginStart="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="198dp"
+            android:background="@color/transparent"
+            android:text="email"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="244dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_email_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imageButton2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginStart="57dp"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="17dp"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_message_black_24dp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="188dp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:onClick="backflotingbtn"
+        android:layout_gravity="left"
+        android:foregroundGravity="center"
+
+
+        android:src="@drawable/ic_arrow_back"
+        app:maxImageSize="30dp"
+        app:pressedTranslationZ="1dp"
+        />
+
+
+</LinearLayout>

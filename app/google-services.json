@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828952373165",
+    "project_id": "servewithus-66a15",
+    "storage_bucket": "servewithus-66a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828952373165:android:af8472cf99ac6cd98f2324",
+        "android_client_info": {
+          "package_name": "com.scoreleaderz.ServeWithUs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828952373165-2910u78edl4r7anr4f6hsh7v4gdqvn6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnPbLN3KbEy-KCK866NQUJDq7gSB0Xez4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828952373165-2910u78edl4r7anr4f6hsh7v4gdqvn6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

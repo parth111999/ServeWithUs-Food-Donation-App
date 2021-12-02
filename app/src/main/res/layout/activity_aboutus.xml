@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutusActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_welcome" />
+
+        <RelativeLayout
+            android:id="@+id/rellay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_logo"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginRight="-2dp"
+            android:layout_marginBottom="0dp"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/transparent"
+                android:gravity='center'
+                android:text="Project By : -  Parth Shah  | Jay Patel  |  Omkar Mahadik"
+                android:textAllCaps="false"
+                android:textColor="#4f52fc"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_below="@+id/inst"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/home_food" />
+
+            <TextView
+                android:id="@+id/gpp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-medium"
+                android:text="ServeWithUs"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/found"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/info"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginRight="14dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Wasting Food is like Stealing Food from Poors..!"
+                android:textColor="@color/material_500"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/cp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/found"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Bakery Waste Process: Bread Shredding, Drying, Ensiling"
+                android:textColor="@color/darkgray"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/inst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="96dp"
+                android:layout_marginLeft="96dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="Waste Food Donation System"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14dp" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/i1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="fill_horizontal"
+                android:text="   Bakery wastes are a combination of different wastes, and their composition is thus highly variable. Bakery wastes are mostly breads removed from the food market as they become unsellable after only 24 hours, but they can consist in any other ingredient like dough, flour, sugar and other edible ingredients, such as icing, burnt or broken product."
+                android:textColor="@color/darkgray"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:onClick="backflotingbtn"
+        android:layout_gravity="left"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_arrow_back"
+        app:maxImageSize="30dp"
+        app:pressedTranslationZ="1dp"
+        />
+
+</LinearLayout>

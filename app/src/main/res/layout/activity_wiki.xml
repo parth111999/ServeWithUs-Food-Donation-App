@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WikiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+            <RelativeLayout
+                android:id="@+id/rellay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="1dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/gpp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="ServeWithUs"
+                    android:textColor="@color/darkgray"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/inst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="81dp"
+                    android:layout_marginLeft="81dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="Waste Food Donation System"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="14dp" />
+
+                <ImageView
+
+                    android:id="@+id/i1"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_below="@+id/inst"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/home_food"
+
+                    />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/i1"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="        Bakery wastes are a combination of different wastes, and their composition is thus highly variable. Bakery wastes are mostly breads removed from the food market as they become unsellable after only 24 hours, but they can consist in any other ingredient like dough, flour, sugar and other edible ingredients, such as icing, burnt or broken product. Bakery wastes may contain ground plastic bags as the bakery wastes."
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/found"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/info"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="33dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="9dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Wasting Food like Stealing Food from Poors..!"
+                    android:textColor="@color/material_500"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/found"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Bakery Waste Process: Bread Shredding, Drying, Ensiling"
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/ic"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/dp"
+                    android:layout_marginBottom="-30dp"
+                    android:src="@drawable/ic_account_balance_black_24dp" />
+                <TextView
+                    android:id="@+id/dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/cp"
+                    android:layout_toRightOf="@+id/ic"
+                    android:layout_marginTop="10dp"
+                    android:text="Backery Waste Processes :"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/c"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="          Waste processing depends on the nature of the waste. In an India, they are subsequently not submitted to the obligation of boiling during 30 minutes as are the other food wastes                                                      "
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/i"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/c"
+                    android:layout_marginLeft="8dp"
+
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/e"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/i"
+                    android:layout_marginLeft="8dp"
+                    android:textStyle="bold"
+                    android:text="1. Bread Shredding"
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/m"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/e"
+                    android:layout_marginLeft="8dp"
+                    android:text="         In an India and in the USA, where breads are mainly in the form of sliced loaves and packed in plastic bags, discarded breads are collected, unpacked and ground so that less than 1% plastic or aluminium residues are still present in the feed                                            "
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/el"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/m"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:text="2. Drying"
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/cv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/el"
+                    android:layout_marginLeft="8dp"
+                    android:text=" For better storage, it is useful to dry bread from its usual 63-65% DM to 90%.                            "
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/mt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/cv"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. Ensiling"
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/d"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/mt"
+                    android:layout_marginLeft="8dp"
+                    android:text=" Another way to preserve bakery waste is to ensile it. Ensiling of bakery waste could be done in association with acid whey: it resulted in effective fermentation process and provided could quality silage. Bakery waste could also be ensiled in mixture with other grocery waste.     "
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/ic2"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/d"
+                    android:layout_marginTop="11dp"
+                    android:src="@drawable/ic_people_black_24dp" />
+
+                <TextView
+                    android:id="@+id/p"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/d"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_toRightOf="@+id/ic2"
+                    android:text="Uses :"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/pi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/p"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:text="       Bakery wastes are extensively used as feed for farm animals which reduces their disposal and alleviates environmental issues. Any bakery waste can be used on farm provided it does not contain meat, fish or shellfish. Bakery wastes may also provide valuable and readily hydrolisable feedstock for industrial fermentation. Stale bakery products can be used in the biopolymer industry to produce poly-lactic acid biopolymer.                     "
+                    android:textColor="@color/darkgray"
+                    android:textSize="14dp" />
+
+                <ImageView
+                    android:id="@+id/ic3"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/pi"
+                    android:layout_marginTop="11dp"
+                    android:src="@drawable/ic_photo_black_24dp" />
+
+                <TextView
+                    android:id="@+id/pt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/pi"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_toRightOf="@+id/ic3"
+                    android:text="Photos :"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pt"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/g1"
+                        android:layout_width="78dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/f1" />
+
+                    <ImageView
+                        android:id="@+id/g2"
+                        android:layout_width="78dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/f2" />
+
+                    <ImageView
+                        android:id="@+id/g3"
+                        android:layout_width="78dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/f3" />
+
+                    <ImageView
+                        android:id="@+id/g4"
+                        android:layout_width="78dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/f5" />
+
+                    <ImageView
+                        android:id="@+id/f4"
+                        android:layout_width="78dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="4dp"
+                        android:src="@drawable/f4" />
+
+                </GridLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
